@@ -19,6 +19,18 @@ Besides Node, kubenav requires [Go 1.14](https://golang.org) or later and [Go mo
 ```sh
 go get -u golang.org/x/mobile/cmd/gomobile
 go install golang.org/x/mobile/cmd/gomobile
+```
+
+Ensure that gomobile is accessible from your shell. You can do this by executing:
+
+```sh
+echo 'export PATH=$PATH:~/go/bin' >> ~/.bashrc
+source ~/.bashrc
+```
+
+Install gomobile afterwards with:
+
+```sh
 gomobile init
 ```
 
